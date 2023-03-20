@@ -10,12 +10,6 @@ label = "macro_spotlight";
 #binding-cells = <0>;
 bindings = <&kp LG(SPACE)>;
 };
-macro_spotlight: macro_expose{
-compatible = "zmk,behavior-macro";
-label = "macro_expose";
-#binding-cells = <0>;
-bindings = <&kp LS(F3)>;
-};
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
 label = "macro_kinesis";
