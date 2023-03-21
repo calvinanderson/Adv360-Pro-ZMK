@@ -2,7 +2,7 @@ macro_expose: macro_expose{
 compatible = "zmk,behavior-macro";
 label = "macro_expose";
 #binding-cells = <0>;
-bindings = <&kp F3>;
+bindings = <&kp LS(F3)>;
 };
 macro_hyper: macro_hyper{
 compatible = "zmk,behavior-macro";
